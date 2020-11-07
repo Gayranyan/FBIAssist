@@ -1,7 +1,5 @@
-imgui.Separator()
 {ff0000}Последнее редактирование: {585858}27.09.2020
 imgui.NewLine()
-imgui.Separator()
 imgui.NewLine()
 {2969b0}Обязанности:
 	{2969b0}1.1. {ffffff}Знание и соблюдение общего устава бюро;
