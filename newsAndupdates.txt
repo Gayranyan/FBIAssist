@@ -6,8 +6,7 @@ imgui.CreatePaddingX(20); imgui.TextColoredRGB("• {585858} Была дораб
 imgui.CreatePaddingX(40); imgui.TextColoredRGB("{ff0000}• {585858}Важные обновления будут грузится без разрешения, они будут появлятся крайне редко. {6666ff}[ Исправление критических ошибок и тому подобного. ]")
 imgui.CreatePaddingX(20); imgui.TextColoredRGB("• {585858}Были переписаны системы новостей, УК, АК, уставов. Теперь они будут получится из интернета и будут изменены когда угодно без обновления скрипта.")
 imgui.CreatePaddingX(40); imgui.TextColoredRGB("{0088ff}• {585858}Блогодаря этому так же появился возможность анонсировать новые обновления {cc0000}:)")
-imgui.CreatePaddingX(20); imgui.TextColoredRGB("• {585858} Добавлен пункт управление сотрудниками {00dd00}ONLINE {585858}и {cc0000}OFFLINE{585858}. {6666ff}[ Для старшего состава ] {cc0000} [ Ожидается доработка ]")
-imgui.CreatePaddingX(20); imgui.TextColoredRGB("• {585858} Добавлен чёрный список FBI. {6666ff}[ Для агентов FBI ] {cc0000} [ Ожидается доработка ]")
+imgui.CreatePaddingX(20); imgui.TextColoredRGB("• {585858} Добавлен пункт управление сотрудниками {00dd00}ONLINE {585858}и {cc0000}OFFLINE{585858}. {6666ff}[ Для старшего состава ]
 imgui.CreatePaddingX(20); imgui.TextColoredRGB("• {585858} До релиза осталось немного...")
 imgui.NewLine()
 imgui.Separator()
