@@ -14,7 +14,7 @@ local message = {}
 local typeStyle = {
 	{ -- 1) Уведомление
 		text = imgui.ImColor(255, 255, 255, 255):GetVec4(),
-		rightBox = imgui.ImColor(32, 153, 124, 255):GetU32(),
+		rightBox = imgui.ImColor(33, 122, 186, 255):GetU32(),
 		mainBox = {
 			imgui.ImColor(0, 0, 0, 170):GetU32(),
 			imgui.ImColor(0, 0, 0, 235):GetU32(),
@@ -26,15 +26,15 @@ local typeStyle = {
 		text = imgui.ImColor(255, 255, 255, 255):GetVec4(),
 		rightBox = imgui.ImColor(33, 122, 186, 255):GetU32(),
 		mainBox = {
-			imgui.ImColor(33, 122, 186, 170):GetU32(),
-			imgui.ImColor(33, 122, 186, 235):GetU32(),
-			imgui.ImColor(33, 122, 186, 235):GetU32(),
-			imgui.ImColor(33, 122, 186, 170):GetU32(),
+			imgui.ImColor(33, 122, 186, 255):GetU32(),
+			imgui.ImColor(33, 122, 186, 255):GetU32(),
+			imgui.ImColor(33, 122, 186, 255):GetU32(),
+			imgui.ImColor(33, 122, 186, 255):GetU32(),
 		}
 	},
 	{ -- 3) Ошибка
 		text = imgui.ImColor(255, 255, 255, 255):GetVec4(),
-		rightBox = imgui.ImColor(32, 153, 124, 255):GetU32(),
+		rightBox = imgui.ImColor(33, 122, 186, 255):GetU32(),
 		mainBox = {
 			imgui.ImColor(170, 20, 20, 170):GetU32(),
 			imgui.ImColor(170, 20, 20, 235):GetU32(),
