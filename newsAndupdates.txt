@@ -8,6 +8,7 @@ imgui.CreatePaddingX(20); imgui.TextColoredRGB("• {585858} Были измен
 imgui.CreatePaddingX(20); imgui.TextColoredRGB("• {585858} Была изменена вид кастомного фракционного чата.")
 imgui.NewLine()
 imgui.Separator()
+imgui.NewLine()
 imgui.CenterTextColoredRGB("{585858}Версия {6666ff}0.8 [PR] {585858} - {6666ff}PRE-RELEASE")
 imgui.NewLine()
 imgui.CreatePaddingX(20); imgui.TextColoredRGB("• {585858} Была доработана система обновлений скрипта. Присутствуют 2 вида обновлений: {cc0000}Важные{585858} и {6666ff}обычные{585858}.")
