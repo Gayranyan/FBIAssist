@@ -12,17 +12,7 @@ local ToScreen = convertGameScreenCoordsToWindowScreenCoords
 local sX, sY = ToScreen(630, 438)
 local message = {}
 local typeStyle = {
-	{ -- 1) Уведомление
-		text = imgui.ImColor(255, 255, 255, 255):GetVec4(),
-		rightBox = imgui.ImColor(33, 122, 186, 255):GetU32(),
-		mainBox = {
-			imgui.ImColor(0, 0, 0, 170):GetU32(),
-			imgui.ImColor(0, 0, 0, 235):GetU32(),
-			imgui.ImColor(0, 0, 0, 235):GetU32(),
-			imgui.ImColor(0, 0, 0, 170):GetU32(),
-		}
-	},
-	{ -- 2) Информация
+	{ -- 1) Информация
 		text = imgui.ImColor(255, 255, 255, 255):GetVec4(),
 		rightBox = imgui.ImColor(33, 122, 186, 255):GetU32(),
 		mainBox = {
@@ -32,14 +22,14 @@ local typeStyle = {
 			imgui.ImColor(33, 122, 186, 255):GetU32(),
 		}
 	},
-	{ -- 3) Ошибка
+	{ -- 2) Ошибка
 		text = imgui.ImColor(255, 255, 255, 255):GetVec4(),
 		rightBox = imgui.ImColor(33, 122, 186, 255):GetU32(),
 		mainBox = {
-			imgui.ImColor(170, 20, 20, 170):GetU32(),
-			imgui.ImColor(170, 20, 20, 235):GetU32(),
-			imgui.ImColor(170, 20, 20, 235):GetU32(),
-			imgui.ImColor(170, 20, 20, 170):GetU32(),
+			imgui.ImColor(170, 20, 20, 255):GetU32(),
+			imgui.ImColor(170, 20, 20, 255):GetU32(),
+			imgui.ImColor(170, 20, 20, 255):GetU32(),
+			imgui.ImColor(170, 20, 20, 255):GetU32(),
 		}
 	}
 }
@@ -235,7 +225,7 @@ function onRenderNotification()
 	}
 end
 
-function notf.addNotification(text, time, style)
+function EXPORTS.addNotification(text, time, style)
 	local style = style or 1
 	message[#message+1] = {active = false, time = 0, showtime = time, text = text, style = style}
 end
