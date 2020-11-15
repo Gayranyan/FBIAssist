@@ -235,7 +235,7 @@ function onRenderNotification()
 	}
 end
 
-function EXPORTS.addNotification(text, time, style)
+function notf.addNotification(text, time, style)
 	local style = style or 1
 	message[#message+1] = {active = false, time = 0, showtime = time, text = text, style = style}
 end
