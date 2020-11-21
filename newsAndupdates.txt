@@ -1,5 +1,5 @@
 imgui.NewLine()
-imgui.CenterTextColoredRGB("{99ff66}Фикс {FF6347}0.9.2.a [PR] {585858}- {6666ff}Принудительное обновление")
+imgui.CenterTextColoredRGB("{99ff66}Фикс {FF6347}0.9.2.a [PR]")
 imgui.CreatePaddingX(20); imgui.TextColoredRGB("• {585858} Был оптимизирован код скрипта.")
 imgui.CreatePaddingX(20); imgui.TextColoredRGB("• {585858} Были исправлены все найденные баги.")
 imgui.NewLine()
