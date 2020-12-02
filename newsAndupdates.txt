@@ -1,5 +1,5 @@
 imgui.NewLine()
-imgui.CenterTextColoredRGB("{cc0000}Анонс {0088ff}2.0 [R]")
+imgui.CenterTextColoredRGB("• {cc0000}Анонс {0088ff}2.0 [R]")
 imgui.CreatePaddingX(20); imgui.TextColoredRGB("{585858}Будет полностью изменена дизайн скрипта. Также будет возможности переключатся между тёмным и светлым темами.")
 imgui.CreatePaddingX(20); imgui.TextColoredRGB("{585858}Будет добавлена возможность настроить под себе дизайн информационной панели и чат-помощника.")
 imgui.NewLine()
