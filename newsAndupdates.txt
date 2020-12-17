@@ -1,6 +1,7 @@
 imgui.NewLine()
 imgui.CenterTextColoredRGB("• {cc0000}Анонс {0088ff}2.0 [R]")
 imgui.CreatePaddingX(20); imgui.TextColoredRGB("{585858}Будет полностью изменена дизайн скрипта.")
+imgui.CreatePaddingX(20); imgui.TextColoredRGB("{585858}Появился возможность переключения между тёмным и светлым стилям.")
 imgui.CreatePaddingX(20); imgui.TextColoredRGB("{585858}Будет исправлен баг для агетов под прикрытием.")
 imgui.NewLine()
 imgui.Separator()
